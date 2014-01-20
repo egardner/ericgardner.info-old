@@ -1,0 +1,147 @@
+{
+  "portfolio": {
+    "index": {
+      "mixture_date": {
+        "2013-06-13t00:00:00z": [
+          "/portfolio/project-3"
+        ],
+        "2013-06-12t00:00:00z": [
+          "/portfolio/project-2"
+        ],
+        "2013-06-11t00:00:00z": [
+          "/portfolio/project-1"
+        ]
+      },
+      "year": {
+        "2013": [
+          "/portfolio/project-1",
+          "/portfolio/project-3",
+          "/portfolio/project-2"
+        ]
+      },
+      "ticks": {
+        "1370995200.0": [
+          "/portfolio/project-2"
+        ],
+        "1371081600.0": [
+          "/portfolio/project-3"
+        ],
+        "1370908800.0": [
+          "/portfolio/project-1"
+        ]
+      },
+      "title": {
+        "project #2": [
+          "/portfolio/project-2"
+        ],
+        "project #3": [
+          "/portfolio/project-3"
+        ],
+        "project #1": [
+          "/portfolio/project-1"
+        ]
+      },
+      "month": {
+        "06": [
+          "/portfolio/project-1",
+          "/portfolio/project-3",
+          "/portfolio/project-2"
+        ]
+      },
+      "mixture_month_year": {
+        "06/2013": [
+          "/portfolio/project-1",
+          "/portfolio/project-3",
+          "/portfolio/project-2"
+        ]
+      },
+      "tags": {
+        "markdown": [
+          "/portfolio/project-1",
+          "/portfolio/project-3",
+          "/portfolio/project-2"
+        ],
+        "example": [
+          "/portfolio/project-1",
+          "/portfolio/project-3",
+          "/portfolio/project-2"
+        ]
+      },
+      "slug": {
+        "/portfolio/project-2": [
+          "/portfolio/project-2"
+        ],
+        "/portfolio/project-3": [
+          "/portfolio/project-3"
+        ],
+        "/portfolio/project-1": [
+          "/portfolio/project-1"
+        ]
+      },
+      "thumbnail": {
+        "/assets/img/project-02.png": [
+          "/portfolio/project-2"
+        ],
+        "/assets/img/project-03.png": [
+          "/portfolio/project-3"
+        ],
+        "/assets/img/project-01.png": [
+          "/portfolio/project-1"
+        ]
+      }
+    },
+    "collection": {
+      "/portfolio/project-1": {
+        "mixture_date": "2013-06-11T00:00:00Z",
+        "published": true,
+        "year": "2013",
+        "ticks": 1370908800.0,
+        "month": "06",
+        "title": "Project #1",
+        "mixture_month_year": "06/2013",
+        "date": "Tue Jun 11 00:00:00 UTC 2013",
+        "body": "\n<h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</h2>\n\n<blockquote>\n  <p>&#8220;Lorem ipsum dolor sit amet&#8221;</p>\n</blockquote>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n\n<ol>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ol>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n\n<p><a href=\"http://docs.mixture.io\">http://docs.mixture.io</a></p>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<ul>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ul>\n",
+        "tags": [
+          "Example",
+          "Markdown"
+        ],
+        "thumbnail": "/assets/img/project-01.png",
+        "slug": "/portfolio/project-1"
+      },
+      "/portfolio/project-3": {
+        "mixture_date": "2013-06-13T00:00:00Z",
+        "published": true,
+        "year": "2013",
+        "ticks": 1371081600.0,
+        "month": "06",
+        "title": "Project #3",
+        "mixture_month_year": "06/2013",
+        "date": "Thu Jun 13 00:00:00 UTC 2013",
+        "body": "\n<h2>Lorem ipsum dolor sit amet</h2>\n\n<p><img src=\"/_mixture_placeholder/800x600/FF6600\" alt=\"Placeholder\" /></p>\n\n<p>Lorem ipsum convallis sed est nullam et aliquet. Et donec praesent facilisis. Suspendisse risus tellus duis diam aliquam metus vel lacinia et quisque. Nunc metus sit ultrices libero quisque sociosqu quis in. Praesent fusce donec non et lacus amet et litora nulla. Non amet tristique quisque mauris orci proin. Nunc eget amet. </p>\n\n<p>Laoreet nunc taciti elit tortor aliquam dui nunc in elit dui. Et adipiscing aliquam pellentesque dolor suspendisse dignissim nec. Risus ut a a duis torquent ultrices sodales. Sed curabitur ipsum praesent rutrum lacinia tellus. Elit donec dignissim id et quisque amet quisque libero facilisis phasellus. Tincidunt et id magna nulla. </p>\n\n",
+        "tags": [
+          "Example",
+          "Markdown"
+        ],
+        "thumbnail": "/assets/img/project-03.png",
+        "slug": "/portfolio/project-3"
+      },
+      "/portfolio/project-2": {
+        "mixture_date": "2013-06-12T00:00:00Z",
+        "published": true,
+        "year": "2013",
+        "ticks": 1370995200.0,
+        "month": "06",
+        "title": "Project #2",
+        "mixture_month_year": "06/2013",
+        "date": "Wed Jun 12 00:00:00 UTC 2013",
+        "body": "\n<h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</h2>\n\n<blockquote>\n  <p>&#8220;Lorem ipsum dolor sit amet&#8221;</p>\n</blockquote>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n\n<ol>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ol>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n\n<p><a href=\"http://docs.mixture.io\">http://docs.mixture.io</a></p>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<ul>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ul>\n",
+        "tags": [
+          "Example",
+          "Markdown"
+        ],
+        "thumbnail": "/assets/img/project-02.png",
+        "slug": "/portfolio/project-2"
+      }
+    }
+  }
+}
