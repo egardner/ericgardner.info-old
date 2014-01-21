@@ -1,4 +1,4 @@
-name: Your New Jekyll Site
+name: ericgardner.info
 markdown: redcarpet
 pygments: true
 permalink: /:categories/:title

@@ -9,6 +9,9 @@
         <script type="text/javascript" src="//use.typekit.net/lwu8jdu.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
         <meta name="viewport" content="width=device-width">
+		
+		<!-- reset and defaults CSS -->
+		<link rel="stylesheet" href="/css/base.css">
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
@@ -21,31 +24,42 @@
 
     </head>
     <body>
-	    <div class="container">
-	    	<div class="sixteen columns">
-	          <div class="header">
-	            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-	          </div>
-	
-	          {{ content }}
-	
-	          <div class="footer">
-	            <div class="contact">
-	              <p>
-	                Your Name<br />
-	                What You Are<br />
-	                you@example.com
-	              </p>
-	            </div>
-	            <div class="contact">
-	              <p>
-	                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-	                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-	              </p>
-	            </div>
-	          </div>
-	    	</div>
-        </div>
-
+    	<div id="top">
+		    <div class="container">
+		    	<div class="sixteen columns">
+		        	<div class="header">
+		        		<div class="four columns alpha">
+		        			<h2 id="title"><a href="/">{{ site.name }}</a></h2>
+		        		</div>
+		        	</div>
+		    	</div>
+		    </div>
+		</div>
+		<div id="middle">
+			<div class="container">
+				<div class="sixteen columns row">
+					{{ content }}
+				</div>
+			</div>
+		</div>
+		<div id="bottom">
+			<div class="container">
+				<div class="footer sixteen columns row">
+		        	<div class="contact eight columns alpha">
+		            	<p>
+		                	Your Name<br />
+							What You Are<br />
+							you@example.com
+						</p>
+		            </div>
+		            <div class="contact four columns offset-by-four omega">
+		            	<p>
+		                	<a href="https://github.com/yourusername">github.com/yourusername</a><br />
+							<a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
+						</p>
+		            </div>
+				</div>
+		    </div>
+		</div>
     </body>
 </html>
