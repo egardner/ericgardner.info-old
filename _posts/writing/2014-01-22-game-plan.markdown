@@ -20,3 +20,4 @@ Long-term:
 - schmancy transitions between page states
 - full-bleed image section
 - support for "sandbox" content, like JS or processing projects
+- more things to be determined
