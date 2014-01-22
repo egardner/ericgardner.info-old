@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  New post
+date: 2014-01-01
 categories: writing
 ---
 

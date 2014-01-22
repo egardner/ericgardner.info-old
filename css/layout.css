@@ -65,19 +65,27 @@ ol { list-style: decimal inside; }
 
 /*----------- Page Layout: General -----------*/
 
+/*
+* color notes:
+* Footer slate grey: #363D45
+* Complimentary light blue: #4C9CB7
+* Complimentary gold: #FFAC37
+* additional colors TBD
+*/
+
 #top {
 	background-color: #fff;
-	padding-top: 1em;
+	padding-top: 1rem;
 }
 
 #middle {
 	background-color: #fff;
-	padding-top: .5em;	
+	padding-top: .5rem;	
 }
 
 #bottom {
 	background-color: #363d45;
-	padding-top: 1em;
+	padding-top: 1rem;
 	color: #fff;
 }
 
@@ -89,8 +97,18 @@ nav ul li {
 	list-style-type: none;
 	display: block;
 	float: right;
-	margin-left: 1em;
+	margin-left: 1rem;
+	font-size: 1.4rem;
+	font-weight: 300;
 }
+
+/*--- Link styles --*/
+
+a:link, a:visited, a:hover, a:active {
+	color: #3b689b;
+	text-decoration: none;
+}
+
 
 /* #Page Styles
 ================================================== */
