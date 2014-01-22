@@ -2,7 +2,7 @@
 layout: post
 title:  "New post"
 date:   2014-01-02 11:01:52
-categories: writing jekyll update
+categories: writing
 ---
 
 This is normal text.
