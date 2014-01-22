@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "New post"
+date:   2014-01-02 11:01:52
+categories: writing jekyll update
+---
+
+This is normal text.
+
+### This is a heading.
+
+- list item 1
+- list item 2
+- list item 3
+
