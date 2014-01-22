@@ -1,22 +1,24 @@
 ---
 layout: post
-title:  "Things to add for this site"
+title:  Things to add for this site
 categories: writing
 ---
 
 Here's a list of potential features to include in this site.
 
 Short-term:
-- Mobile-friendly menu ("hamburger") on top right
+
+- Mobile-friendly menu (&quot;hamburger&quot;) on top right
 - Add date info back to writing posts
 - more robust navigation for blog section
-- ability to page through to projects ("projects" page can be longer than grid on home page – good idea or not?)
+- ability to page through to projects (&quot;projects&quot; page can be longer than grid on home page &ndash;&nbsp;good idea or not?)
 - alternatively, should photo stuff be separate?
 - analytics
-- support for alternate layouts (for photo sections, etc). Maybe the "alternate" layout just applies a body class to the standard page layout to avoid redundancy? Best ways to do this?
+- support for alternate layouts (for photo sections, etc). Maybe the &quot;alternate&quot; layout just applies a body class to the standard page layout to avoid redundancy? Best ways to do this?
 
 Long-term:
-- Add a hook for custom "meta" tags (SEO) in blog posts
+
+- Add a hook for custom &quot;meta&quot; tags (SEO) in blog posts
 - schmancy transitions between page states
 - full-bleed image section
-- support for "sandbox" content, like JS or processing projects
+- support for &quot;sandbox&quot; content, like JS or processing projects
