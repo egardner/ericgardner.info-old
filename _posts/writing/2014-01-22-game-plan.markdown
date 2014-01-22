@@ -7,17 +7,17 @@ categories: writing
 Here's a list of potential features to include in this site.
 
 Short-term:
-- Mobile-friendly menu ("hamburger") on top right
-- Add date info back to writing posts
-- more robust navigation for blog section
-- ability to page through to projects ("projects" page can be longer than grid on home page – good idea or not?)
-- alternatively, should photo stuff be separate?
-- analytics
-- support for alternate layouts (for photo sections, etc). Maybe the "alternate" layout just applies a body class to the standard page layout to avoid redundancy? Best ways to do this?
+* Mobile-friendly menu ("hamburger") on top right
+* Add date info back to writing posts
+* more robust navigation for blog section
+* ability to page through to projects ("projects" page can be longer than grid on home page – good idea or not?)
+* alternatively, should photo stuff be separate?
+* analytics
+* support for alternate layouts (for photo sections, etc). Maybe the "alternate" layout just applies a body class to the standard page layout to avoid redundancy? Best ways to do this?
 
 Long-term:
-- Add a hook for custom "meta" tags (SEO) in blog posts
-- schmancy transitions between page states
-- full-bleed image section
-- support for "sandbox" content, like JS or processing projects
-- more things to be determined
+* Add a hook for custom "meta" tags (SEO) in blog posts
+* schmancy transitions between page states
+* full-bleed image section
+* support for "sandbox" content, like JS or processing projects
+* more things to be determined
