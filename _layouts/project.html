@@ -29,11 +29,14 @@ layout: default
 		<br class="clear" />
 		<!-- end project meta -->
 		<!-- begin project images -->
-		{% for image in page.slides %}
-			<img src="{{ page.slides[slides.image] }}" />
-			<br class="clear" />
-		{% endfor %}
-
+		<div class="gallery">
+		{% if page.gallery %}
+		    {% for slides in page.gallery %}
+		      <img src="{{ slides.image }}" />
+		      <br class="clear" />
+		    {% endfor %}
+		{% endif %}
+		</div>
 		<!-- end project images -->
 
 	</div>

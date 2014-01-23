@@ -160,6 +160,7 @@ a:link, a:visited, a:hover, a:active {
 	padding: .5em 0;
 }
 
+div.gallery img { max-width: 100%;}
 
 /* #Media Queries
 ================================================== */
