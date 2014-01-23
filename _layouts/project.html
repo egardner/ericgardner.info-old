@@ -29,8 +29,8 @@ layout: default
 		<br class="clear" />
 		<!-- end project meta -->
 		<!-- begin project images -->
-		{% for item page.slides %}
-			<img src="{{page.slides}}" />
+		{% for item in page.slides %}
+			<img src="{{page.slides[0]}}" />
 		{% endfor %}
 
 
