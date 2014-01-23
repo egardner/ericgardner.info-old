@@ -151,6 +151,8 @@ a:link, a:visited, a:hover, a:active {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 1rem;
+	text-indent: 0em;
+	padding-left: 0em;
 }
 
 #post_meta ul li {

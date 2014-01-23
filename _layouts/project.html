@@ -29,10 +29,10 @@ layout: default
 		<br class="clear" />
 		<!-- end project meta -->
 		<!-- begin project images -->
-		{% for item in page.slides %}
-			<img src="{{page.slides[0]}}" />
+		{% for image in page.slides %}
+			<img src="{{ page.slides[slides.image] }}" />
+			<br class="clear" />
 		{% endfor %}
-
 
 		<!-- end project images -->
 
