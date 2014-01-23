@@ -6,7 +6,7 @@ categories: writing
 
 Here's a list of potential features to include in this site.
 
-Short-term:
+###Short-term:
 
 - Mobile-friendly menu (&quot;hamburger&quot;) on top right
 - Add date info back to writing posts
@@ -16,7 +16,7 @@ Short-term:
 - analytics
 - support for alternate layouts (for photo sections, etc). Maybe the &quot;alternate&quot; layout just applies a body class to the standard page layout to avoid redundancy? Best ways to do this?
 
-Long-term:
+###Long-term:
 
 - Add a hook for custom &quot;meta&quot; tags (SEO) in blog posts
 - schmancy transitions between page states
