@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="container">
+	<!-- full-width title -->
+	<div class="sixteen columns row">
+		<h1>{{ page.title }}</h1>
+		<p class="meta">{{ page.date | date_to_string }}</p>
+	</div>
+	<!-- project content -->
+	<div class="sixteen columns row">
+		<!-- left column: project description -->
+		<div class="ten columns alpha">
+			<div class="post">
+				{{ content }}
+			</div>
+		</div>
+		<!-- end project description -->
+		<!-- right column: project meta -->
+		<div class="five columns offset-by-one omega">
+			<div id="post_meta">
+				<ul>
+					<li>Client: {{ page.client }}</li>
+					<li>Year: {{ page.year }}</li>
+					<li>Role: {{ page.role }}</li>
+				</ul>
+			</div>
+		</div>
+		<br class="clear" />
+		<!-- end project meta -->
+		<!-- begin project images -->
+		{% for item page.slides %}
+			<img src="{{page.slides}}" />
+		{% endfor %}
+
+
+		<!-- end project images -->
+
+	</div>
+</div>
