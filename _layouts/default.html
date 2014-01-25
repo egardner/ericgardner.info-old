@@ -13,16 +13,38 @@
         <meta name="viewport" content="width=device-width">
 		
 		<!-- reset and defaults CSS -->
-		<link rel="stylesheet" href="/css/base.css">
+		<link rel="stylesheet" href="/assets/css/base.css">
 
         <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
+        <link rel="stylesheet" href="/assets/css/syntax.css">
         <!-- Skeleton grid css -->
-        <link rel="stylesheet" href="/css/skeleton.css">
-
+        <link rel="stylesheet" href="/assets/css/skeleton.css">
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/layout.css">
+        <link rel="stylesheet" href="/assets/css/layout.css">
+        
+        {% if page.gallery %}
+		<!-- load flexslider components -->
+		<!-- flexslider css -->
+		<link rel="stylesheet" href="/assets/css/flexslider.css" type="text/css">
+		<!-- jQuery from google CDN -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<!-- flexslider JS -->
+		<script src="/assets/js/jquery.flexslider.js"></script>	
+		<!-- flexslider initialization -->
+		<script type="text/javascript" charset="utf-8">
+		$(window).load(function() {
+			$('.flexslider').flexslider({
+			animation: "fade",
+			controlNav: false,
+			directionNav: true,
+			slideshowSpeed: 5000,
+			animationSpeed: 600,
+			touch: true
+			});
+		});		
+		</script>	
+		{% endif %}
+        
 
     </head>
     <body>

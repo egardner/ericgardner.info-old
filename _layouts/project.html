@@ -10,14 +10,14 @@ layout: default
 	<!-- project content -->
 	<div class="sixteen columns row">
 		<!-- left column: project description -->
-		<div class="ten columns alpha">
-			<div class="post">
+		<div class="nine columns alpha">
+			<div class="description">
 				{{ content }}
 			</div>
 		</div>
 		<!-- end project description -->
 		<!-- right column: project meta -->
-		<div class="five columns offset-by-one omega">
+		<div class="six offset-by-one columns omega">
 			<div id="post_meta">
 				<ul>
 					<li>Client: {{ page.client }}</li>
@@ -31,10 +31,15 @@ layout: default
 		<!-- begin project images -->
 		<div class="gallery">
 		{% if page.gallery %}
+		<div class="flexslider">
+			<ul class="slides">
 		    {% for slides in page.gallery %}
-		      <img src="{{ slides.image }}" />
-		      <br class="clear" />
+		    	<li>
+					<img src="{{ slides.image }}" />
+		    	</li>
 		    {% endfor %}
+			</ul>
+		</div>
 		{% endif %}
 		</div>
 		<!-- end project images -->

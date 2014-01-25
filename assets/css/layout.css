@@ -64,7 +64,7 @@ ul, ol { margin-bottom: 1.5rem; }
 ul { list-style: disc inside; }
 ol { list-style: decimal inside; }
 
-#middle ul {text-indent: -1em; padding-left: 1em; font-size: 1.15em; line-height: 1.4; }
+.post ul {text-indent: -1em; padding-left: 1em; font-size: 1.15em; line-height: 1.4; }
 ul#postlist {font-size: 1.5rem; font-weight: 300;}
 
 /*----------- Page Layout: General -----------*/
@@ -160,7 +160,12 @@ a:link, a:visited, a:hover, a:active {
 	padding: .5em 0;
 }
 
-div.gallery img { max-width: 100%;}
+.description p {
+	font-size: 1.1rem;
+}
+
+
+/* div.gallery img { max-width: 100%;} */
 
 /* #Media Queries
 ================================================== */
