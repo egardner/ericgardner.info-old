@@ -1,31 +1,32 @@
 ---
 layout: default
 ---
-<div class="container">
+<div class="container" id="project">
 	<!-- full-width title -->
 	<div class="sixteen columns row">
 		<h1>{{ page.title }}</h1>
 	</div>
 	<!-- begin project images -->
 	<div class="sixteen columns row">
-	<div class="gallery">
-	{% if page.gallery %}
-	<div class="flexslider">
-		<ul class="slides">
-	    {% for slides in page.gallery %}
-	    	<li>
-				<img src="{{ slides.image }}" />
-	    	</li>
-	    {% endfor %}
-		</ul>
-	</div>
-	{% endif %}
+		<div class="gallery">
+			{% if page.gallery %}
+			<div class="flexslider">
+				<ul class="slides">
+					{% for slides in page.gallery %}
+					<li>
+						<img src="{{ slides.image }}" />
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+			{% endif %}
+		</div>
 	</div>
 	<!-- end project images -->
-
 	<!-- project content -->
+	<div class="row">
 		<!-- left column: project description -->
-		<div class="nine columns alpha">
+		<div class="nine columns">
 			<div class="description">
 				<p class="meta">{{ page.date | date_to_string }}</p>
 
@@ -34,7 +35,7 @@ layout: default
 		</div>
 		<!-- end project description -->
 		<!-- right column: project meta -->
-		<div class="six offset-by-one columns omega">
+		<div class="six offset-by-one columns">
 			<div id="post_meta">
 				<ul>
 					<li>Client: {{ page.client }}</li>
@@ -44,6 +45,5 @@ layout: default
 			</div>
 		</div>
 		<!-- end project meta -->
-
 	</div>
 </div>

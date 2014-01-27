@@ -84,7 +84,6 @@ ul#postlist {font-size: 1.5rem; font-weight: 300;}
 
 #middle {
 	background-color: #fff;
-	padding-top: .5rem;	
 }
 
 #bottom {
@@ -93,18 +92,6 @@ ul#postlist {font-size: 1.5rem; font-weight: 300;}
 	color: #fff;
 }
 
-nav ul {
-	text-align: right;
-}
-
-nav ul li {
-	list-style-type: none;
-	display: block;
-	float: right;
-	margin-left: 1rem;
-	font-size: 1.4rem;
-	font-weight: 300;
-}
 
 /*--- Link styles --*/
 
@@ -145,6 +132,14 @@ a:link, a:visited, a:hover, a:active {
 /* #Project Pages
 ================================================== */
 
+#project h1 {
+	margin-bottom: 0px;
+}
+
+#project div.row {
+	margin-bottom: 10px;
+}
+
 #post_meta ul {
 	list-style-type: none;
 	border-top: solid 1px #ccc;
@@ -177,7 +172,16 @@ a:link, a:visited, a:hover, a:active {
 	@media only screen and (min-width: 768px) and (max-width: 959px) {}
 
 	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {}
+	@media only screen and (max-width: 767px) {
+		h1 {
+			font-size: 2.5rem;
+		}
+		
+		.description p {
+			font-size: 1rem;
+		}
+		
+	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {}
