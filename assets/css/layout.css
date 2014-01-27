@@ -57,6 +57,52 @@ h5 {font-size: 1rem;}
 h6 {font-size: .75rem;}
 
 
+/* Responsive navigation (adapted from here: http://www.hongkiat.com/blog/responsive-web-nav/)
+================================================== */
+
+.header h2 {
+	width: 40%;
+	float: left;
+	background-color: #fff;
+}
+
+nav {
+	height: 40px;
+	font-size: 1.2rem;
+	float: right;
+	font-weight: 300;
+	margin-top: 12px;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0 auto;
+	height: 40px;
+	text-align: right;
+}
+
+nav li {
+	display: inline;
+	float: left;
+
+}
+
+nav li a {
+	margin-right: 1rem;
+}
+
+nav li a:last-child {
+	margin-left: 0rem;
+}
+
+nav a {
+	display: inline-block;
+}
+
+nav a#pull {
+	display: none;
+}
+
 /* #Lists
 ================================================== */
 
@@ -176,10 +222,29 @@ a:link, a:visited, a:hover, a:active {
 		h1 {
 			font-size: 2.5rem;
 		}
-		
 		.description p {
 			font-size: 1rem;
 		}
+		nav ul {
+			display: none;
+			height: auto;
+		}
+		nav a#pull {
+			display: block;
+			width: 100%;
+			position: relative;
+		}
+		nav a#pull:after {
+			content:"";
+			background: url('nav-icon.png') no-repeat;
+			width: 30px;
+			height: 30px;
+			display: inline-block;
+			position: absolute;
+			right: 15px;
+			top: 10px;
+		}
+
 		
 	}
 

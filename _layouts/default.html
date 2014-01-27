@@ -19,8 +19,6 @@
         <link rel="stylesheet" href="/assets/css/syntax.css">
         <!-- Skeleton grid css -->
         <link rel="stylesheet" href="/assets/css/skeleton.css">
-        <!-- Responsive nav css -->
-        <link rel="stylesheet" href="/assets/css/navigataur.css">
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/assets/css/layout.css">
         
@@ -53,15 +51,14 @@
 		    <div class="container">
 		    	<div class="sixteen columns header">
 		    		<h2><a href="/">{{site.name}}</a></h2>
-					<div class="nav">
-						<input type='checkbox' id='toggle'/>
-						<label for="toggle" class="toggle" data-open="Menu" data-close="Close Menu" onclick></label>
-					    <ul class="menu">
-					        <li><a href="#">Projects</a></li>
-					        <li><a href="#">Writing</a></li>
-					        <li><a href="#">About</a></li> 
-					    </ul>
-					</div>
+					<nav class="clearfix">
+						<ul class="clearfix">
+							<li><a href="#">Projects</a></li>
+							<li><a href="#">Writing</a></li>
+							<li><a href="#">About</a></li>
+						</ul>
+						<a href="#" id="pull">menu</a>
+					</nav>
 		    	</div>
 		    </div>
 		</div>
