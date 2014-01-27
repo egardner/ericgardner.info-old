@@ -22,12 +22,35 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/assets/css/layout.css">
         
+     	<!-- jQuery from google CDN -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+     	<!-- Responsive nav helper script -->
+        <script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+		</script>
+        
+        
         {% if page.gallery %}
 			<!-- load flexslider components -->
 			<!-- flexslider css -->
 			<link rel="stylesheet" href="/assets/css/flexslider.css" type="text/css">
-			<!-- jQuery from google CDN -->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 			<!-- flexslider JS -->
 			<script src="/assets/js/jquery.flexslider.js"></script>	
 			<!-- flexslider initialization -->
