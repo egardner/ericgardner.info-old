@@ -57,6 +57,10 @@ h5 {font-size: 1rem;}
 h6 {font-size: .75rem;}
 
 
+.footer .omega p {
+	text-align: right;
+}
+
 /* Responsive navigation (adapted from here: http://www.hongkiat.com/blog/responsive-web-nav/)
 ================================================== */
 
@@ -247,6 +251,12 @@ a:link, a:visited, a:hover, a:active {
 			right: 15px;
 			top: 10px;
 		}
+		
+		
+		.footer .omega p {
+			text-align: left;
+		}
+
 
 		
 	}
