@@ -10,43 +10,23 @@
         
         <!-- typekit -->
         <script type="text/javascript" src="//use.typekit.net/lwu8jdu.js"></script>
-		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">		
+	   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">		
 		
-		<!-- reset and defaults CSS -->
-		<link rel="stylesheet" href="/assets/css/base.css">
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/assets/css/syntax.css">
-        <!-- Skeleton grid css -->
-        <link rel="stylesheet" href="/assets/css/skeleton.css">
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/assets/css/layout.css">
+	   <!-- reset and defaults CSS -->
+	   <link rel="stylesheet" href="/assets/css/base.css">
+	   <!-- syntax highlighting CSS -->
+	   <link rel="stylesheet" href="/assets/css/syntax.css">
+	   <!-- Skeleton grid css -->
+	   <link rel="stylesheet" href="/assets/css/skeleton.css">
+	   <!-- Custom CSS -->
+	   <link rel="stylesheet" href="/assets/css/layout.css">
         
-     	<!-- jQuery from google CDN -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	   <!-- jQuery from google CDN -->
+	   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 
-     	<!-- Responsive nav helper script -->
-        <script type="text/javascript" charset="utf-8">
-		$(function() {
-			var pull 		= $('#pull');
-				menu 		= $('nav ul');
-				menuHeight	= menu.height();
-
-			$(pull).on('click', function(e) {
-				e.preventDefault();
-				menu.slideToggle();
-			});
-
-			$(window).resize(function(){
-        		var w = $(window).width();
-        		if(w > 320 && menu.is(':hidden')) {
-        			menu.removeAttr('style');
-        		}
-    		});
-		});
-		</script>
-        
-        
+	   
+       
         {% if page.gallery %}
 			<!-- load flexslider components -->
 			<!-- flexslider css -->
@@ -74,13 +54,12 @@
 		    <div class="container">
 		    	<div class="sixteen columns header">
 		    		<h2><a href="/">{{site.name}}</a></h2>
-					<nav class="clearfix">
-						<ul class="clearfix">
-							<li><a href="/">Projects</a></li>
-							<li><a href="/writing/">Writing</a></li>
-							<li><a href="#">About</a></li>
+					<nav class="nav">
+						<ul class="nav-list">
+							<li class="nav-item"><a href="/">Projects</a></li>
+							<li class="nav-item"><a href="/writing/">Writing</a></li>
+							<li class="nav-item"><a href="#">About</a></li>
 						</ul>
-						<a href="#" id="pull">menu</a>
 					</nav>
 		    	</div>
 		    </div>

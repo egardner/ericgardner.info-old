@@ -104,9 +104,7 @@ nav a {
 	display: inline-block;
 }
 
-nav a#pull {
-	display: none;
-}
+
 
 
 
@@ -232,27 +230,6 @@ a:link, a:visited, a:hover, a:active {
 		.description p {
 			font-size: 1rem;
 		}
-		nav ul {
-			display: none;
-			height: auto;
-		}
-		nav a#pull {
-			display: block;
-			width: 100%;
-			position: relative;
-		}
-		nav a#pull:after {
-			content:"";
-			background: url('nav-icon.png') no-repeat;
-			width: 30px;
-			height: 30px;
-			display: inline-block;
-			position: absolute;
-			right: 15px;
-			top: 10px;
-		}
-		
-		
 		.footer .omega p {
 			text-align: left;
 		}
