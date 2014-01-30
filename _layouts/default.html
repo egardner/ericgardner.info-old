@@ -24,6 +24,19 @@
         
 	   <!-- jQuery from google CDN -->
 	   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	   <script type="text/javascript" charset="utf-8">
+	   $(document).ready(function() {
+		  $('body').addClass('js');
+		  var $menu = $('#menu'),
+		    $menulink = $('.menu-link');
+		  
+		$menulink.click(function() {
+		  $menulink.toggleClass('active');
+		  $menu.toggleClass('active');
+		  return false;
+		  });});
+		</script>
+
 
 	   
        
@@ -54,14 +67,15 @@
 		    <div class="container">
 		    	<div class="sixteen columns header">
 		    		<h2><a href="/">{{site.name}}</a></h2>
-					<nav class="nav">
-						<ul class="nav-list">
-							<li class="nav-item"><a href="/">Projects</a></li>
-							<li class="nav-item"><a href="/writing/">Writing</a></li>
-							<li class="nav-item"><a href="#">About</a></li>
-						</ul>
-					</nav>
-		    	</div>
+		    		<a href="#menu" class="menu-link">Menu</a>
+		    		<nav id="menu" role="navigation">
+			    		<ul>
+				    		<li><a href="/">Projects</a></li>
+				    		<li><a href="/writing/">Writing</a></li>
+				    		<li><a href="#">About</a></li>
+				    	</ul>
+				</nav>		    	
+			</div>
 		    </div>
 		</div>
 		<!-- end top section -->
