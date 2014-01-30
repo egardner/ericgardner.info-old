@@ -77,7 +77,6 @@ nav#menu ul {
 	font-weight: 300;
 	list-style-type: none;
 	position: relative;
-/* 	max-width: 50%; */
 }
 
 a.menu-link {
@@ -106,7 +105,6 @@ nav[role=navigation] ul {
 	margin: 0;
 	padding: 0;
 	border-top: 1px solid #808080;
-	width: 100%;
 }
 nav[role=navigation] li a {
 	text-align: left;
@@ -115,7 +113,13 @@ nav[role=navigation] li a {
 	border-bottom: 1px solid #808080;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 767px) {
+	nav[role=navigation] ul {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 768px) {
 	a.menu-link {
 	   display: none;
 	}
