@@ -102,6 +102,11 @@ nav[role=navigation].active {
 	max-height: 15em;
 	background-color: #363D45;
 }
+
+nav[role=navigation].active li a {
+	color: #fff;
+}
+
 nav[role=navigation] ul {
 	margin: 0;
 	padding: 0;

@@ -8,11 +8,11 @@ Here's a list of potential features to include in this site.
 
 ###Short-term:
 
-- Mobile-friendly menu (&quot;hamburger&quot;) on top right
+- <del>Mobile-friendly menu (&quot;hamburger&quot;) on top right</del>
 - <del>Add date info back to writing posts</del>
 - <del>Responsive images</del>
 - <del>Project page layout</del>
-- Photo gallery for project page?
+- <del>Photo gallery for project page?</del>
 - analytics
 - support for alternate layouts (for photo sections, etc). Maybe the &quot;alternate&quot; layout just applies a body class to the standard page layout to avoid redundancy? Best ways to do this?
 
@@ -24,3 +24,17 @@ Here's a list of potential features to include in this site.
 - support for &quot;sandbox&quot; content, like JS or processing projects
 - more robust navigation for blog section
 - ability to page through to projects (&quot;projects&quot; page can be longer than grid on home page &ndash; good idea or not?)
+
+###Content to add:
+
+- AQJ education guide
+- Made in LA
+-- enviro graphics
+-- publication
+- Made in LA typeface (Colby Gothic)
+- Salome exhibition
+- Public Programs posters
+-- AILTR
+-- Tehran
+-- Foster?
+
