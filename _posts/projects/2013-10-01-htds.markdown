@@ -1,0 +1,30 @@
+---
+layout: project
+title:  HDTS 2013
+categories: projects
+thumbnail: /assets/img/hdts_thumb.jpg
+permalink: hdts-2013
+
+client: High Desert Test Sites
+year: 2013
+role: Photography
+gallery:
+ - image: /assets/img/hdts_01.jpg
+ - image: /assets/img/hdts_02.jpg
+ - image: /assets/img/hdts_03.jpg
+ - image: /assets/img/hdts_04.jpg
+ - image: /assets/img/hdts_05.jpg
+ - image: /assets/img/hdts_06.jpg
+ - image: /assets/img/hdts_07.jpg
+ - image: /assets/img/hdts_08.jpg
+ - image: /assets/img/hdts_09.jpg
+ - image: /assets/img/hdts_10.jpg
+ - image: /assets/img/hdts_11.jpg
+ - image: /assets/img/hdts_12.jpg
+ - image: /assets/img/hdts_13.jpg
+ - image: /assets/img/hdts_14.jpg
+ - image: /assets/img/hdts_15.jpg
+
+---
+
+HDTS photos.
