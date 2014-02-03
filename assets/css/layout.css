@@ -256,6 +256,15 @@ a:link, a:visited, a:hover, a:active {
 	font-size: 1.1rem;
 }
 
+/*
+.flexslider .slides img {
+	max-height: 640px;
+	width: auto !important;
+	max-width: 100%;
+	display: inline;
+	text-align: center;
+}
+*/
 
 /* div.gallery img { max-width: 100%;} */
 
