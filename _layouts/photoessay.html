@@ -10,15 +10,9 @@ layout: default
 	<div class="sixteen columns row">
 		<div class="gallery">
 			{% if page.gallery %}
-			<div class="flexslider">
-				<ul class="slides">
-					{% for slides in page.gallery %}
-					<li>
-						<img src="{{ slides.image }}" />
-					</li>
-					{% endfor %}
-				</ul>
-			</div>
+				{% for slides in page.gallery %}
+					<img src="{{ slides.image }}" />
+				{% endfor %}
 			{% endif %}
 		</div>
 	</div>

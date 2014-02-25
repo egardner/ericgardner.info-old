@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: photoessay
 title:  HDTS 2013
 categories: photography
 thumbnail: /assets/img/hdts_thumb.jpg
