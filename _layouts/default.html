@@ -37,18 +37,17 @@
 		  });});
 		</script>
 		
-		
-		<!-- Skrollr js -->
+		{% if page.parallax %}
+			<!-- load Skrollr components -->
+			<!-- <link rel="stylesheet" href="/assets/css/normalize.css" type="text/css"> -->
+			<!-- <link rel="stylesheet" href="/assets/css/parallax.css" type="text/css"> -->
+		{% endif %}
 
-	   
        
         {% if page.gallery %}
 			<!-- load flexslider components -->
-			<!-- flexslider css -->
 			<link rel="stylesheet" href="/assets/css/flexslider.css" type="text/css">
-			<!-- flexslider JS -->
 			<script src="/assets/js/jquery.flexslider.js"></script>	
-			<!-- flexslider initialization -->
 			<script type="text/javascript" charset="utf-8">
 			$(window).load(function() {
 				$('.flexslider').flexslider({
@@ -63,7 +62,7 @@
 			</script>	
 		{% endif %}
     </head>
-    <body>
+    <body {%if page.parallax %} class="loading" {% endif %} >
 		<!-- begin top section -->
     	<div id="top">
 		    <div class="container">
@@ -109,6 +108,11 @@
 				</div>
 		    </div>
 		</div>
-		<!-- end bottom section -->
+		<!-- end bottom section -->	
+		
+					<script src="/assets/js/imagesloaded.js"></script>
+			<script src="/assets/js/skrollr.js"></script>
+			<script src="/assets/js/app.js"></script>
+
     </body>
 </html>
