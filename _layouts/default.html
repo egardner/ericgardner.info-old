@@ -1,117 +1,58 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }} | {{ site.name }}</title>
-		
-		<!-- adaptive images script -->
-        <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
-        
-        <!-- typekit -->
-        <script type="text/javascript" src="//use.typekit.net/lwu8jdu.js"></script>
-	   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">		
-		
-	   <!-- reset and defaults CSS -->
-	   <link rel="stylesheet" href="/assets/css/base.css">
-	   <!-- syntax highlighting CSS -->
-	   <link rel="stylesheet" href="/assets/css/syntax.css">
-	   <!-- Skeleton grid css -->
-	   <link rel="stylesheet" href="/assets/css/skeleton.css">
-	   <!-- Custom CSS -->
-	   <link rel="stylesheet" href="/assets/css/layout.css">
-        
-	   <!-- jQuery from google CDN -->
-	   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	   <script type="text/javascript" charset="utf-8">
-	   $(document).ready(function() {
-		  $('body').addClass('js');
-		  var $menu = $('#menu'),
-		    $menulink = $('.menu-link');
-		  
-		$menulink.click(function() {
-		  $menulink.toggleClass('active');
-		  $menu.toggleClass('active');
-		  return false;
-		  });});
-		</script>
-		
-		{% if page.parallax %}
-			<!-- load Skrollr components -->
-			<!-- <link rel="stylesheet" href="/assets/css/parallax.css" type="text/css"> -->
-		{% endif %}
+<html lang="en-US">
+<head>
+<!-- Basic Page Needs
+================================================== -->
+<meta charset="utf-8">
+<title>Eric Gardner | Graphic Design</title>
+<meta name="description" content="Eric Gardner: Graphic Design Portfolio">
+<meta name="author" content="Eric Gardner">
 
-       
-        {% if page.gallery %}
-			<!-- load flexslider components -->
-			<link rel="stylesheet" href="/assets/css/flexslider.css" type="text/css">
-			<script src="/assets/js/jquery.flexslider.js"></script>	
-			<script type="text/javascript" charset="utf-8">
-			$(window).load(function() {
-				$('.flexslider').flexslider({
-				animation: "fade",
-				controlNav: false,
-				directionNav: true,
-				slideshowSpeed: 5000,
-				animationSpeed: 600,
-				touch: true
-				});
-			});		
-			</script>	
-		{% endif %}
-    </head>
-    <body {%if page.parallax %} class="loading" {% endif %} >
-		<!-- begin top section -->
-    	<div id="top">
-		    <div class="container">
-		    	<div class="sixteen columns header">
-		    		<h2><a href="/">{{site.name}}</a></h2>
-		    		<a href="#menu" class="menu-link">menu</a>
-		    		<nav id="menu" role="navigation">
-			    		<ul>
-				    		<li><a href="/">Design</a></li>
-				    		<li><a href="/photography/">Photography</a></li>
-				    		<li><a href="/writing/">Writing</a></li>
-				    		<li><a href="#">About</a></li>
-				    	</ul>
-				</nav>		    	
-			</div>
-		    </div>
-		</div>
-		<!-- end top section -->
-		<!-- begin middle section -->
-		<div id="middle">
-		{{ content }}
-		<br class="clear" />
+<!-- Typekit
+================================================== -->
+<script type="text/javascript" src="//use.typekit.net/lwu8jdu.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-		</div>
-		<!-- end middle section -->
-		<!-- begin bottom section -->
-		<div id="bottom">
-			<div class="container">
-				<div class="footer sixteen columns row">
-		        	<div class="contact eight columns alpha">
-		            	<p>
-		                	Eric Gardner<br />
-							Graphic Designer<br />
-							gardner.ec@gmail.com
-						</p>
-		            </div>
-		            <div class="contact four columns offset-by-four omega">
-		            	<p>
-		                	<a href="https://github.com/egardner">github.com/egardner</a><br />
-							<a href="https://twitter.com/yourusername">twitter.com/ecgardner</a><br />
-						</p>
-		            </div>
-				</div>
-		    </div>
-		</div>
-		<!-- end bottom section -->	
-		
-		<script src="/assets/js/imagesloaded.js"></script>
-		<script src="/assets/js/skrollr.js"></script>
-		<script src="/assets/js/app.js"></script>
+<!-- Mobile Specific Metas
+================================================== -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
 
-    </body>
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+
+<!-- JS
+================================================== --> 
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/jquery-1.11.0.min.js">\x3C/script>')</script>
+{% if page.gallery %}
+	<!-- load flexslider components -->
+	<link rel="stylesheet" href="/assets/css/flexslider.css" type="text/css">
+	<script type="text/javascript" src="/assets/js/jquery.flexslider.js"></script>	
+{% endif %}
+
+
+</head>
+<body {%if page.parallax %} class="loading" {% endif %}>
+<header id="page-header">
+	<div class="container">
+		<div class="sixteen columns">
+			<h1><a href="/">ericgardner.info</a></h1>
+			<a href="#menu" class="menu-link">Menu</a>
+			<nav id="menu" role="navigation">
+				<ul>
+					<li><a href="/">Design</a></li>
+					<li><a href="/photography/">Photography</a></li>
+					<li><a href="/writing/">Writing</a></li>
+					<li><a href="/about/">About</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+{{ content }}
+
+<script type="text/javascript" src="/assets/skrollr.js"></script>
+<script type="text/javascript" src="/assets/js/main.js"></script>
+</body>
 </html>

@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-<div class="container" id="project">
-	<!-- full-width title -->
-	<div class="sixteen columns row">
-		<h1>{{ page.title }}</h1>
+<section id="project">
+	<div class="container">
+		<div class="sixteen columns">
+		<h2>{{ page.title }}</h2>
 	</div>
 	<!-- begin project images -->
-	<div class="sixteen columns row">
-		<div class="gallery">
+	<div class="sixteen columns">
+		<section class="gallery">
 			{% if page.gallery %}
 			<div class="flexslider">
 				<ul class="slides">
@@ -20,21 +20,19 @@ layout: default
 				</ul>
 			</div>
 			{% endif %}
-		</div>
+		</section>
 	</div>
 	<!-- end project images -->
 	<!-- project content -->
-	<div class="row">
+	<section class="description">
 		<!-- left column: project description -->
 		<div class="nine columns">
-			<div class="description">
-				{{ content }}
-			</div>
+			{{ content }}
 		</div>
 		<!-- end project description -->
 		<!-- right column: project meta -->
 		<div class="six offset-by-one columns">
-			<div id="post_meta">
+			<aside class="meta">
 				<ul>
 					<li>Client: {{ page.client }}</li>
 					<li>Year: {{ page.year }}</li>
@@ -44,4 +42,4 @@ layout: default
 		</div>
 		<!-- end project meta -->
 	</div>
-</div>
+</section>
