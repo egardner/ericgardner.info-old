@@ -13,7 +13,11 @@ layout: default
 	
 		{% for slides in page.parallax %}
 			<section class="slide">
-	        		<div class="slide-background" style="background-image:url('{{ slides.image }}')">
+	        		<div 
+	        		class="slide-background" 
+	        		style="background-image:url('{{ slides.image }}')" 
+	        		data-200-bottom="opacity:1.0;" 
+	        		data-500-bottom="opacity:0.1;">
 		        		<div class="slide-container">
 			    			<div class="slide-content">
 				    			<h3>Slide 1</h3>

@@ -168,8 +168,16 @@ div.flexslider{
 	padding: 0px;
 }
 
+section.slide {
+	margin-top: -16px;
+	background-color: #000;
+}
+
 div.slide-background {
 	width: 100vw;
 	height: 100vh;
-	background-position: center center
+	background-position: center center; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
 }
