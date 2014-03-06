@@ -122,7 +122,6 @@ ul {}
 
 #project {background-color: #fff; width: 100%}
 #project img {width: 100%;}
-
 #page-footer{
 	background-color: #fff; 
 	width: 100%
@@ -164,4 +163,67 @@ div.flexslider{
 	margin-bottom: 0px;
 }
 
+.loading {
+	background: url('../img/ico_loading.gif') no-repeat center center;
+}
+#photoessay section {
+	min-width: 960px;
+	opacity: 0;
+}
+.loaded section,
+.no-js section {
+	opacity: 1;
+	-webkit-transition: opacity 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out;
+	transition: opacity 300ms ease-out;
+}
+main {
+	overflow-x: hidden;
+}
+#preload {
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bcg {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
 
+.hsContainer {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.hsContent {
+	max-width: 700px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+
+.hsContent h2  {
+	color: #fff8de;
+	background-color: rgba(0,0,0,0.5);
+	padding: 10px 5px;
+	font-size: 35px;
+	line-height: 38px;
+	margin-bottom: 12px;
+}
+.hsContent p {
+	width: 400px;
+	color: #b2b2b2;
+}
+.hsContent a {
+	color: #b2b2b2;
+	text-decoration: underline;
+}
