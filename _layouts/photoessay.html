@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<section id="project">
+<section id="photoessay">
 	<div class="container">
 		<!-- full-width title -->
 		<div class="sixteen columns row">
@@ -9,21 +9,14 @@ layout: default
 		</div>
 	</div>
 	<!-- begin photo essay -->
-	<div id="preload">
-		{% if page.parallax %}
-			{% for slides in page.parallax %}
-				<img src="{{ slides.image }}" />
-			{% endfor %}
-		{% endif %}
-	</div>
-	<main id="skrollr-body">
+	<main>
 	
 		{% for slides in page.parallax %}
-			<section class="homeSlide">
-	        		<div class="bcg" style="background-image:url('{{ slides.image }}')">
-		        		<div class="hsContainer">
-			    			<div class="hsContent">
-				    			<h2>Slide 1</h2>
+			<section class="slide">
+	        		<div class="slide-background" style="background-image:url('{{ slides.image }}')">
+		        		<div class="slide-container">
+			    			<div class="slide-content">
+				    			<h3>Slide 1</h3>
 				    		</div>
 				    	</div>
 				</div>
