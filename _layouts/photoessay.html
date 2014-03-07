@@ -10,7 +10,20 @@ layout: default
 	</div>
 	<!-- begin photo essay -->
 	<main>
-	
+
+
+		<section class="slide">
+			<div class="slide-background"
+			style="background-image:url('{{page.parallax[0].image}}')" 
+			data-top="opacity:1.0;">
+				<div class="slide-container">
+					<div class="slide-content">
+						{{content}}
+					</div>
+				</div>
+			</div>
+		</section>
+
 		{% for slides in page.parallax %}
 			<section class="slide">
 	        		<div 
