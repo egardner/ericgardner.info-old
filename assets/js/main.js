@@ -28,10 +28,8 @@ $(document).ready(function() {
 
 	// initialize skrollr
 	window.onload = function() {
-                skrollr.init({
-                
-        });
-        }
+		skrollr.init();
+    }
 
 
 });

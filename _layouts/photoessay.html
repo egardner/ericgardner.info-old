@@ -16,8 +16,8 @@ layout: default
 	        		<div 
 	        		class="slide-background" 
 	        		style="background-image:url('{{ slides.image }}')" 
-	        		data-200-bottom="opacity:1.0;" 
-	        		data-500-bottom="opacity:0.1;">
+	        		data-top="opacity:1.0;" 
+	        		data--500-bottom="opacity:0;">
 		        		<div class="slide-container">
 			    			<div class="slide-content">
 				    			<h3>Slide 1</h3>
@@ -26,6 +26,10 @@ layout: default
 				</div>
 			</section>
 		{% endfor %}
+		<section class="slide" id="outro">
+			<div class="slide-background">
+			</div>
+		</section>
 	
 	
 	</main>
