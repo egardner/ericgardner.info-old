@@ -2,20 +2,20 @@
 layout: default
 ---
 <section id="photoessay">
-	<div class="container">
-		<!-- full-width title -->
+	<!-- <div class="container">
 		<div class="sixteen columns row">
 			<h2>{{ page.title }}</h2>
 		</div>
-	</div>
+	</div> -->
 	<!-- begin photo essay -->
 	<main>
 
 
-		<section class="slide">
-			<div class="slide-background"
+		<section class="slide skrollable">
+			<div class="slide-background skrollable"
 			style="background-image:url('{{page.parallax[0].image}}')" 
-			data-top="opacity:1.0;">
+			data-top="opacity:0.2;"
+			data--500-bottom="opacity:1;">
 				<div class="slide-container">
 					<div class="slide-content">
 						{{content}}
@@ -27,7 +27,7 @@ layout: default
 		{% for slides in page.parallax %}
 			<section class="slide">
 	        		<div 
-	        		class="slide-background" 
+	        		class="slide-background skrollable" 
 	        		style="background-image:url('{{ slides.image }}')" 
 	        		data-top="opacity:1.0;" 
 	        		data--500-bottom="opacity:0;">
@@ -40,7 +40,7 @@ layout: default
 			</section>
 		{% endfor %}
 		<section class="slide" id="outro">
-			<div class="slide-background">
+			<div class="slide-background skrollable">
 			</div>
 		</section>
 	
