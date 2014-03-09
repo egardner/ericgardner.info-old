@@ -1,7 +1,7 @@
 ---
 layout: photoessay
 title:  HDTS 2013
-categories: photography
+categories: projects
 thumbnail: /assets/img/hdts_thumb.jpg
 permalink: hdts-2013
 
