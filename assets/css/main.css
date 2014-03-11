@@ -35,18 +35,18 @@ body {
 }
 
 code, pre {
-	font-family: "consolas," "courier", monospace;
+	font-family: "inconsolata," "consolas", monospace;
 	font-size: 1.125em;
 	line-height: 1.4;
 	margin-bottom: 1rem;
 }
 
 dl {
+	font-family: "inconsolata", "consolas", monospace;
 	font-size: 1rem;
 	margin: 0rem 0 1.5rem 0;
 	font-weight: 400;
 	color: #999;
-	font-style: italic;
 }
 
 a dl {
@@ -134,15 +134,14 @@ section.description {
 }
 
 aside.meta {
+	font-family: "inconsolata", "consolas", monospace;
 	font-size: 1.1rem;
 	line-height: 1.5;
-	text-transform: uppercase;
 }
 
 aside.meta ul {
 	list-style-type: none;
 	border-top: solid 1px #ccc;
-	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 1rem;
 	text-indent: 0em;
@@ -165,7 +164,7 @@ div.flexslider{
 
 header#page-header.parallax-header {
 	background-color: #000;
-	height: 95px;
+	height: 85px;
 }
 
 header#page-header.parallax-header a{
@@ -191,7 +190,6 @@ header#page-header.parallax-header a:active, {
 }
 
 section.slide {
-	margin-top: -16px;
 }
 
 div.slide-background {
