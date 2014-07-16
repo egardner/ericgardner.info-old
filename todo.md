@@ -5,15 +5,9 @@ Website tasks
 1. Add MILA project photos
     - Street banners
     - bldg banners
-    - title walls
-    - gallery guide
-    - edu guide
     - nook
     - AA apparel
-    - invitation suite
-    - vote for art/Mohn stuff
 2. Add poster/illustration/marketing materials
-    - FIFA
     - Bloomsday
     - Library? Blips? Other illus/graphics?
 3. Unnamed Press branding
