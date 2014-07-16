@@ -1,3 +1,11 @@
 name: ericgardner.info
+email: your-email@domain.com
+description: "Graphic design, web development, and art direction."
+baseurl: ""
+url: "http://ericgardner.info"
+
+twitter_username: ecgardner
+github_username:  egardner
+
 markdown: redcarpet
 highlighter: pygments
