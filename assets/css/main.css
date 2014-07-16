@@ -98,9 +98,10 @@ h6 {
 li {}
 
 p {
-	font-size: 1.25em; 
+	font-size: 1.125em; 
 	line-height: 1.4; 
 	margin-bottom: 1rem;
+	color: #333;
 }
 
 ul {}
@@ -112,12 +113,13 @@ ul {}
 ==================================================*/
 .bg {
 	background-color: #fff;
+	padding-bottom: 20px;
 }
 
 #page-header{
 /*  background-color: #fff; 
 */  width: 100%;
-	height: 60px; 
+	height: 50px; 
 }
 #page-header h1{float:left;}
 
@@ -139,8 +141,9 @@ ul {}
 .site-footer dl, .site-footer p {
 	margin-top: 5px;
 	margin-bottom: 5px;
-	line-height: 1.25;
+}
 
+.site-footer dl.description {
 }
 
 .github-icon-svg,
@@ -154,6 +157,11 @@ ul {}
 
 /* 3. Content styles
 ==================================================*/
+
+#page p {
+	font-size: 1.25rem;
+}
+
 section.description {
 	margin: 0rem 0 1rem 0;
 }
@@ -184,7 +192,7 @@ aside.meta ul li {
 /* 4. Special Functions
 ==================================================*/
 div.flexslider{
-	margin-bottom: 0px;
+	margin-bottom: 15px;
 }
 
 header#page-header.parallax-header {

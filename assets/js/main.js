@@ -4,9 +4,9 @@
 $(document).ready(function() {
 
 	// responsive menu scripts
-	$('body').addClass('js');
-  	var $menu = $('#menu'),
-    	$menulink = $('.menu-link');
+	// $('body').addClass('js');
+ //  	var $menu = $('#menu'),
+ //    	$menulink = $('.menu-link');
 
 	// full width images
 	// css 100vh 100vw specifies starting image size
@@ -20,11 +20,11 @@ $(document).ready(function() {
 	});
 
   
-	$menulink.click(function() {
-	  $menulink.toggleClass('active');
-	  $menu.toggleClass('active');
-	  return false;
-	});
+	// $menulink.click(function() {
+	//   $menulink.toggleClass('active');
+	//   $menu.toggleClass('active');
+	//   return false;
+	// });
 
 	// initialize skrollr
 	window.onload = function() {

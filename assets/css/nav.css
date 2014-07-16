@@ -46,13 +46,14 @@ nav[role=navigation] ul {
 nav[role=navigation] li a {
 	text-align: left;
 	display: block;
-	padding: 0.5rem;
+	padding: 0.5rem 0;
 	border-bottom: 1px solid #808080;
 }
 
 @media screen and (max-width: 768px) {
 	nav[role=navigation] ul {
 		width: 100%;
+		margin-bottom: 10px;
 	}
 }
 
