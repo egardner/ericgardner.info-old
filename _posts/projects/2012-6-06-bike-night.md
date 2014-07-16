@@ -2,7 +2,7 @@
 layout: project
 title:  Bike Night at the Hammer!
 categories: projects
-thumbnail: /assets/img/project-01.png
+thumbnail: /assets/img/bike_night_thumb.jpg
 permalink: bike-night-at-the-hammer
 
 client: Hammer Museum
