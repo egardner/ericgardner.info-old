@@ -3,11 +3,11 @@ layout: page
 title: About
 ---
 
-Hello world. 
+Hello world.   
+I'm Eric Gardner, a graphic designer living in Los Angeles.
 
-This site is still under active development, so do not be suprised if things change or break periodically.
+Currently I'm the Senior Designer at the [Hammer Museum](http://hammer.ucla.edu). My responsibilities include design and production of exhibition graphics, signage and wayfinding around the museum, marketing collateral, brochures, web and interactive design, and management of the museum's brand identity.
 
-Eric Gardner is a graphic designer living in Los Angeles. This site is his little piece of the internet. It is hand-built and powered by Jekyll, the CMS-free static-site generator.
+My other interests include analog and digital [photography](https://www.flickr.com/photos/eric-gardner), bicycling, [writing code](https://github.com/egardner), and social justice.
 
-Check back here in the future for additional content. In the mean time, if you need to get in touch with him, you can find him at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
-
+This site was hand-built using [Jekyll](http://jekyllrb.com), the blog-aware static site generator, and is still under active development.

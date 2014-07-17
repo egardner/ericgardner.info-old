@@ -19,6 +19,8 @@ Website tasks
 7. Hammer plus
     - Stationery, brochure, etc
 
+Add AQJ Edu guide/Family Day images
+
 
 ### Design
 1. Remove "writing" section until there is something to put there
