@@ -3,13 +3,16 @@
   <div class="container">
 
     <div class="one-third column">
-        <dl>{{ site.title }}</dl>
-        <dl><a href="mailto:{{ site.email }}">{{ site.email }}</a></dl>
+      <ul>
+        <li>{{ site.title }}</li>
+        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+      </ul>
     </div>
 
     <div class="one-third column">
+      <ul>
         {% if site.github_username %}
-        <dl>
+        <li>
           <a href="https://github.com/{{ site.github_username }}">
             <span class="icon github">
               <svg version="1.1" class="github-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -27,9 +30,10 @@
             </span>
             <span class="username">{{ site.github_username }}</span>
           </a>
-        </dl>{% endif %}
+        </li>
+        {% endif %}
         {% if site.twitter_username %}
-        <dl>
+        <li>
           <a href="https://twitter.com/{{ site.twitter_username }}">
             <span class="icon twitter">
               <svg version="1.1" class="twitter-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -45,12 +49,16 @@
             </span>
             <span class="username">{{ site.twitter_username }}</span>
           </a>
-        </dl>{% endif %}
+        </li>
+          {% endif %}
+        </ul>
     </div>
 
     <div class="one-third column">
-      <dl>Art direction + graphic design</dl>
-      <dl>Los Angeles, CA</dl>
+      <ul>
+      <li>Art direction + graphic design</li>
+      <li>Los Angeles, CA</li>
+    </ul>
 
     </div>
 
