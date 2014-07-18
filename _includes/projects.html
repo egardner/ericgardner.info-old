@@ -1,14 +1,15 @@
 <section id="project">
 	<div class="container">
-			{% for post in site.categories['projects'] %}
-			<div class="one-third column">
-				<a href="{{ post.url }}">
-					<img src="{{post.thumbnail}}" alt="{{ post.title }}" />
-					<dl class="caption">{{ post.title }}</dl>
-				</a>
-				<dl class="caption">{{ post.role }}</dl>
-			</div>
-			{% endfor %}
+		{% for post in site.categories['projects'] %}
+		<div class="one-third column">
+			<a href="{{ post.url }}">
+				<img src="{{post.thumbnail}}" alt="{{ post.title }}" />
+				<span class="caption">{{ post.title }}</span>
+			</a>
+			<span class="caption">{{ post.role }}</span>
 		</div>
+		{% endfor %}
+		<br class="clear">
+
 	</div>
 </section>
