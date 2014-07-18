@@ -2,44 +2,45 @@
 layout: default
 ---
 <section id="project">
+	<!-- begin project images -->
 	<div class="container">
 		<div class="sixteen columns">
-		<h2>{{ page.title }}</h2>
-	</div>
-	<!-- begin project images -->
-	<div class="sixteen columns">
-		<section class="gallery">
-			{% if page.gallery %}
-			<div class="flexslider">
-				<ul class="slides">
-					{% for slides in page.gallery %}
-					<li>
-						<img src="{{ slides.image }}" />
-					</li>
-					{% endfor %}
-				</ul>
-			</div>
-			{% endif %}
-		</section>
+			<section class="gallery">
+				{% if page.gallery %}
+				<div class="flexslider">
+					<ul class="slides">
+						{% for slides in page.gallery %}
+						<li>
+							<img src="{{ slides.image }}" />
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+				{% endif %}
+			</section>
+		</div>
 	</div>
 	<!-- end project images -->
 	<!-- project content -->
-	<section class="description">
-		<!-- left column: project description -->
-		<div class="nine columns">
-			{{ content }}
-		</div>
-		<!-- end project description -->
-		<!-- right column: project meta -->
-		<div class="six offset-by-one columns">
-			<aside class="meta">
-				<ul>
-					<li>Client: {{ page.client }}</li>
-					<li>Year: {{ page.year }}</li>
-					<li>Role: {{ page.role }}</li>
-				</ul>
+	<div class="container">
+		<section class="description">
+			<!-- left column: project description -->
+			<div class="nine columns">
+				<h3>{{ page.title }}</h3>
+				{{ content }}
 			</div>
-		</div>
-		<!-- end project meta -->
+			<!-- end project description -->
+			<!-- right column: project meta -->
+			<div class="six offset-by-one columns">
+				<aside class="meta">
+					<ul>
+						<li>Client: {{ page.client }}</li>
+						<li>Year: {{ page.year }}</li>
+						<li>Role: {{ page.role }}</li>
+					</ul>
+				</aside>
+			</div>
+		</section>
 	</div>
+		<!-- end project meta -->
 </section>
