@@ -213,6 +213,10 @@ div.flexslider{
 	margin-bottom: 0px;
 }
 
+.loading {min-height: 300px; background: url(/assets/img/loader.gif) no-repeat center center;}
+
+
+
 header#page-header.parallax-header {
 	background-color: #000;
 	height: 85px;
