@@ -1,15 +1,14 @@
-<section id="project">
-	<div class="container">
+<section id="projects">
+	<div class="grid">
 		{% for post in site.categories['projects'] %}
-		<div class="one-third column">
-			<a href="{{ post.url }}">
+		<div class="col-1-3">
+			<a href="{{ post.url }}" class="tile">
 				<img src="{{post.thumbnail}}" alt="{{ post.title }}" />
-				<span class="caption">{{ post.title }}</span>
+				{{ post.title }}
 			</a>
 			<span class="caption">{{ post.role }}</span>
 		</div>
 		{% endfor %}
-		<br class="clear">
 
 	</div>
 </section>

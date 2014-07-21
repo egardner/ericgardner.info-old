@@ -3,8 +3,8 @@ layout: default
 ---
 <section id="project">
 	<!-- begin project images -->
-	<div class="container">
-		<div class="sixteen columns">
+	<div class="grid">
+		<div class="row">
 			<section class="gallery">
 				{% if page.gallery %}
 				<div class="flexslider loading">
@@ -22,16 +22,16 @@ layout: default
 	</div>
 	<!-- end project images -->
 	<!-- project content -->
-	<div class="container">
+	<div class="grid">
 		<section class="description">
 			<!-- left column: project description -->
-			<div class="nine columns">
-				<h3>{{ page.title }}</h3>
+			<div class="col-2-3">
+				<h2>{{ page.title }}</h2>
 				{{ content }}
 			</div>
 			<!-- end project description -->
 			<!-- right column: project meta -->
-			<div class="six offset-by-one columns">
+			<div class="col-1-3">
 				<aside class="meta">
 					<ul>
 						<li>Client: {{ page.client }}</li>

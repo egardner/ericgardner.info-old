@@ -1,5 +1,6 @@
 @import url('normalize.css') screen;
-@import url('skeleton.css') screen;
+@import url('grid.css') screen;
+
 
 /* INTRO
 ==================================================*/
@@ -9,155 +10,141 @@
  * License info, etc can go here
 */
 
+/* Font names
+* font-family:'Avenir LT W02 55 Roman'; // Avenir 55 Roman
+* font-family:'AvenirLTW02-55Oblique'; // Avenir 55 Oblique
+* font-family:'Avenir LT W02 85 Heavy'; // Avenir 85 Heavy
+* font-family:'AvenirLTW02-85HeavyObli'; // Avenir 85 Oblique
+*/
+
 
 /* SECTIONS
 ==================================================*/
 /*
- * 1. Global styles (color, type, etc)
- * 2. Header, footer, basic layout
- * 3. Content styles
- * 4. Special functions
- * 5. Media Queries
+* 1. Typography
+* 2. Layout Styles
 */
 
 
-/* 1. Global styles (alphabetical)
+/* Typography
 ==================================================*/
-a:link, a:visited, a:hover, a:active {
+/*a:link, a:visited, a:hover, a:active {
 	text-decoration: none;
 	color: #3b789b;
 }
-body {
-/*  background-color: #fff;
-*/  font-family: "proxima-nova", "helvetica", "arial", sans-serif;
-	color: #222;
-	background-color: #e9e9e9;
-	font-weight: 400;
+*/
+
+/* 
+#057aff bright blue
+#acb9e2 silver blue
+
+*/
+
+a:link, a:visited {
+	text-decoration: none;
+	font-weight: 500;
+	color: #333;
+	-webkit-transition: color 0.3s ease;
+	-moz-transition: color 0.3s ease;
+	-o-transition: color 0.3s ease;
+	transition: color 0.3s ease;
 }
 
-code, pre {
-	font-family: "inconsolata," "consolas", monospace;
-	font-size: 1.125em;
-	line-height: 1.4;
-	margin-bottom: 1rem;
+a:hover, a:active {
+	color: #acb9e2;
+}
+
+
+
+
+body {
+   font-size: 1em;
+   min-height: 100%;
+   font-family: "Avenir W02", Helvetica, Arial, sans-serif;
+   background-color: #e6e6e6;
+   color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 300;
+	font-family: "Avenir W02", "Helvetica", "Arial", sans-serif;
+	font-weight: 500;
 }
 
 h1 {
-	font-size: 1.75rem;
+   font-size: 2.25rem;
+   line-height: 1.143em;
+   margin: 0px 0px 15px 0px;
 }
 
 h2 {
-	font-size: 3.25rem;
-	letter-spacing: 1.5px;
-	padding-top: 0px;
-	margin: 0rem 0 1rem 0;
+   font-size: 1.75rem;
+   line-height: 1.1em;
+   margin: 0px 0px 25px 0px;
 }
 
 h3 {
-	font-size: 1.57rem;
-	font-weight: 400;
-	margin: 1rem 0;
+   font-size: 1.75em;
+   line-height: 1.286em;
+   margin: 0px 0px 19px 0px;
 }
 
 h4 {
-	font-size: 1rem;
-	margin: 1.33rem 0;
+   margin-bottom: 25px;
+   font-size: 1.5em;
+   line-height: 1.042em;
 }
 
 h5 {
-	font-size: 0.83rem;
-	margin: 1.67rem 0;
+   margin: 0px 0px 25px 0px;
+   font-size: 1em;
+   line-height: 1.563em;
 }
-
-h6 {
-	font-size: 0.75rem;
-	margin: 2.33rem 0;
-}
-
-li {}
-
-nav {
-	float: right;
-	font-size: 1.25rem;
-	font-weight: 300;
-	padding-top: 5px;
-}
-
 
 p {
-	font-size: 1.125em; 
-	line-height: 1.4; 
-	margin-bottom: 1rem;
-	color: #333;
+   margin: 0px 0px 25px 0px;
+   text-transform: inherit;
+   font-size: 1.2rem;
+   font-weight: 200;
+   line-height: 1.5em;
+   color: #444
 }
 
-ul {}
-
-span.caption {
-	font-family: "proxima-nova", "helvetica", "arial", sans-serif;
-	font-size: 1rem;
-	margin: 0rem 0 1.5rem 0;
-	font-weight: 400;
-	color: #999;
-	display: block;
+i, cite, em {
+	font-style: oblique;
 }
 
-a .caption {
-	font-family: "proxima-nova", "helvetica", "arial", sans-serif;
-	font-size: 1rem;
-	font-weight: 400;
-	margin: 0.5rem 0 0 0;
-	color: #3b789b;
-	font-style: normal;
+p.intro {
+   font-size: 28px;
+   line-height: 1.214em;
+   margin: 0px 0px 13px 0px;
 }
 
-/* 2. Header, Footer, & Basic Layout
-==================================================*/
-.bg {
-	background-color: #fff;
-	padding-bottom: 15px;
+blockquote.pull-quote {
+   margin: 0em 1em 1em 0em;
+   border-left: 3px solid #ccc;
+   padding: 0em 0em 0em 0.7em;
 }
 
-
-#page-header{
-/*  background-color: #fff; 
-*/  width: 100%;
-	height: 100%;
-}
-#page-header h1{float:left;}
-
-#page-header h1, nav {
-	margin-top: 20px;
+div.content {
+   margin: 0 auto;
+   text-align: left;
+   width: 940px;
+   padding: 50px 0px 0px 0px;
 }
 
-#project {background-color: #fff; width: 100%;}
-#project img {width: 100%;}
-#page-footer{
-	background-color: #fff; 
-	width: 100%
-}
-.site-footer {
-	padding: 15px 0;
-	background-color: #e9e9e9;
+p.quote {
+   font-size: 0.885em;
+   line-height: 1.217em;
+   font-style: italic;
+   color: #666666;
+   margin: 0px;
 }
 
-.site-footer ul {
-	list-style-type: none;
-	padding-left: 0px;
+blockquote {
+   font-size: 26px;
+   line-height: 37px;
+   margin-bottom: 25px;
 }
-
-.site-footer li {
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-.site-footer ul.description {
-}
-
 .github-icon-svg,
 .twitter-icon-svg {
 	display: inline-block;
@@ -167,11 +154,77 @@ a .caption {
 	top: 3px;
 }
 
-/* 3. Content styles
+/* Layout Styles
 ==================================================*/
 
-#page p {
-	font-size: 1.25rem;
+div.bg {
+	background-color: #fff;
+}
+
+#projects a.tile {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#projects a.tile:link, #projects a.tile:visited {
+	webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	opacity: 1;
+}
+
+#projects a.tile:hover, #projects a.tile:active {
+/*	opacity: .5;
+*/}
+
+#projects img {
+	width: 100%;
+}
+
+/*header#pageheader {
+	height: 100vh;
+	width: 100%;
+	background-image: url(/assets/img/hdts_bg.jpg);
+	background-size: cover;
+	background-position: center left;
+}
+*/
+header#pageheader .grid .row {
+	padding-top: 25px;
+	margin-bottom: 20px;
+/*	border-bottom: 5px solid #bcbcbc;
+*/}
+
+h1#siteheader {
+	width: 75%;
+	float: left;
+	margin-bottom: 5px;
+}
+
+h1#siteheader a:link, h1#siteheader a:visited {
+}
+
+nav {
+	float: right;
+	text-align: right;
+	letter-spacing: 1px;
+	font-size: 1.5rem;
+	margin-top: 12px;
+	width: 25%;
+}
+
+span.caption {
+	display: block;
+	color: #999;
+}
+
+a span.caption {
+	color: #333;
+}
+
+div.flexslider {
+	margin-bottom: 0px;
 }
 
 #fullbleed {
@@ -180,100 +233,97 @@ a .caption {
 	width: 100%;
 	background-position: center center;
 	background-size: cover;
-}
-
-
-section.description {
-	margin: 0rem 0 1rem 0;
-}
-
-aside.meta {
-	font-family: "inconsolata", "consolas", monospace;
-	font-size: 1.1rem;
-	line-height: 1.5;
+	margin-bottom: 15px;
 }
 
 aside.meta ul {
+	padding-left: 0px;
+	margin-top: 0px;
+	border-bottom: solid 1px #bcbcbc;
+	line-height: 25px;
+}
+
+aside.meta li {
 	list-style-type: none;
-	border-top: solid 1px #ccc;
-	letter-spacing: 1px;
-	font-size: 1rem;
-	text-indent: 0em;
-	padding-left: 0em;
+	padding: 5px 0px;
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: 2px;
+	font-size: .9rem;
+	border-top: 1px solid #bcbcbc;
 }
 
-aside.meta ul li {
-	border-bottom: solid 1px #ccc;
-	padding: .5em 0;
+footer.sitefooter {
+	background-color: #e6e6e6;
+	padding-top: 5px;
+	padding-bottom: 10px;
 }
 
-
-
-
-/* 4. Special Functions
-==================================================*/
-div.flexslider{
-	margin-bottom: 0px;
-}
-
-.loading {min-height: 300px; background: url(/assets/img/loader.gif) no-repeat center center;}
-
-
-
-header#page-header.parallax-header {
-	background-color: #000;
-	height: 85px;
-}
-
-header#page-header.parallax-header a{
-	color: #999;
-}
-
-header#page-header.parallax-header a:hover,
-header#page-header.parallax-header a:active, {
-	color: #fff;
-}
-
-
-#photoessay main {
-	margin: 0px;
+footer.sitefooter ul, footer.sitefooter li {
+	list-style-type: none;
 	padding: 0px;
-	background-color: #000;
 }
 
-#intro, #outro {
-	color: white;
-	z-index: 250;
-	opacity: 1.0;
-}
-
-section.slide {
-}
-
-div.slide-background {
-	width: 100vw;
-	height: 100vh;
-	background-position: center center; 
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
-
-#intro div.slide-content {
-	text-align: center;
-	width: 50%;
-	color: #fff;
-	position: fixed;
-	top: 25%;
-	left: 50%;
-	margin-left: -25%;
-	z-index: 500;
-}
-
-
-/* 4. Media queries
+/* Media Queries
 ==================================================*/
-@media screen and (max-width: 768px) {
-	#fullbleed{
-		height: 300px;
+
+@media screen and (min-width: 320px) and (max-width: 419px){
+	h1 {
+		font-size: 2rem;
 	}
+	h2 {
+		font-size: 1.25rem;
+	}
+	nav {
+		font-size: 1rem;
+		margin-top: 10px;
+	}
+	#project .grid, #project .row {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#fullbleed {
+		height: 250px;
+	}
+	footer.sitefooter ul {
+		margin-top: 10px;
+		margin-bottom: 0px;
+	}
+	footer.sitefooter [class*='col-'] {
+		margin-bottom: 10px;
+	}
+
+
+}
+
+@media screen and (min-width: 420px) and (max-width: 767px) {
+	h1 {
+		font-size: 2.5rem;
+	}
+	nav {
+		font-size: 1.25rem;
+		margin-top: 15px;
+	}
+	#fullbleed {
+		height: 250px;
+	}
+	footer.sitefooter ul {
+		margin-top: 10px;
+		margin-bottom: 0px;
+	}
+	footer.sitefooter [class*='col-'] {
+		margin-bottom: 10px;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+	#page .row {
+		width: 600px;
+		margin: 20px auto;
+	}
+
 }
